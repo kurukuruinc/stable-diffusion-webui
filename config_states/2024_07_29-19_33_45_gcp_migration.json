@@ -1,0 +1,210 @@
+{
+    "created_at": 1722281625.326995,
+    "webui": {
+        "remote": "https://github.com/kurukuruinc/stable-diffusion-webui.git",
+        "commit_hash": "ee819fb3a7811a4b797c24dc0d20d892311b2865",
+        "commit_date": 1721813107,
+        "branch": "updated_dev"
+    },
+    "extensions": {
+        "LDSR": {
+            "name": "LDSR",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/LDSR",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "Lora": {
+            "name": "Lora",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/Lora",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "ScuNET": {
+            "name": "ScuNET",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/ScuNET",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "SwinIR": {
+            "name": "SwinIR",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/SwinIR",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "canvas-zoom-and-pan": {
+            "name": "canvas-zoom-and-pan",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/canvas-zoom-and-pan",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "extra-options-section": {
+            "name": "extra-options-section",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/extra-options-section",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "hypertile": {
+            "name": "hypertile",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/hypertile",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "mobile": {
+            "name": "mobile",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/mobile",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "postprocessing-for-training": {
+            "name": "postprocessing-for-training",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/postprocessing-for-training",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "prompt-bracket-checker": {
+            "name": "prompt-bracket-checker",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/prompt-bracket-checker",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "soft-inpainting": {
+            "name": "soft-inpainting",
+            "path": "/home/stable-diffusion-webui/extensions-builtin/soft-inpainting",
+            "enabled": true,
+            "is_builtin": true,
+            "remote": null,
+            "commit_hash": "",
+            "commit_date": null,
+            "branch": null,
+            "have_info_from_repo": false
+        },
+        "a-person-mask-generator": {
+            "name": "a-person-mask-generator",
+            "path": "/home/stable-diffusion-webui/extensions/a-person-mask-generator",
+            "enabled": true,
+            "is_builtin": false,
+            "remote": "https://github.com/djbielejeski/a-person-mask-generator.git",
+            "commit_hash": "116560ab5c884bf6b25aade1db27c2f43c02464f",
+            "commit_date": 1718424402,
+            "branch": "main",
+            "have_info_from_repo": false
+        },
+        "adetailer": {
+            "name": "adetailer",
+            "path": "/home/stable-diffusion-webui/extensions/adetailer",
+            "enabled": true,
+            "is_builtin": false,
+            "remote": "https://github.com/Bing-su/adetailer.git",
+            "commit_hash": "a7d961131e879ea8a930034a21a2dee21b173e8c",
+            "commit_date": 1718497969,
+            "branch": "main",
+            "have_info_from_repo": false
+        },
+        "sd-webui-api-payload-display": {
+            "name": "sd-webui-api-payload-display",
+            "path": "/home/stable-diffusion-webui/extensions/sd-webui-api-payload-display",
+            "enabled": true,
+            "is_builtin": false,
+            "remote": "https://github.com/huchenlei/sd-webui-api-payload-display.git",
+            "commit_hash": "2d3332d94ffac0943bd35a1943924ed4650c6e63",
+            "commit_date": 1700763306,
+            "branch": "main",
+            "have_info_from_repo": false
+        },
+        "sd-webui-controlnet": {
+            "name": "sd-webui-controlnet",
+            "path": "/home/stable-diffusion-webui/extensions/sd-webui-controlnet",
+            "enabled": true,
+            "is_builtin": false,
+            "remote": "https://github.com/Mikubill/sd-webui-controlnet.git",
+            "commit_hash": "ee96dc9229e454b8add38c0ca99a92efa97ef238",
+            "commit_date": 1720027910,
+            "branch": "main",
+            "have_info_from_repo": false
+        },
+        "sd-webui-controlnet-evaclip": {
+            "name": "sd-webui-controlnet-evaclip",
+            "path": "/home/stable-diffusion-webui/extensions/sd-webui-controlnet-evaclip",
+            "enabled": true,
+            "is_builtin": false,
+            "remote": "https://github.com/huchenlei/sd-webui-controlnet-evaclip",
+            "commit_hash": "39966e79a5291b9fef8b42de69057dd3b19f4c23",
+            "commit_date": 1715025404,
+            "branch": "main",
+            "have_info_from_repo": false
+        },
+        "sd-webui-incantations": {
+            "name": "sd-webui-incantations",
+            "path": "/home/stable-diffusion-webui/extensions/sd-webui-incantations",
+            "enabled": true,
+            "is_builtin": false,
+            "remote": "https://github.com/v0xie/sd-webui-incantations.git",
+            "commit_hash": "95460d5012a4431324a37dd577c89b840208ca0c",
+            "commit_date": 1717882899,
+            "branch": "master",
+            "have_info_from_repo": false
+        },
+        "sd-webui-token-downsampling": {
+            "name": "sd-webui-token-downsampling",
+            "path": "/home/stable-diffusion-webui/extensions/sd-webui-token-downsampling",
+            "enabled": true,
+            "is_builtin": false,
+            "remote": "https://github.com/feffy380/sd-webui-token-downsampling.git",
+            "commit_hash": "f1f1cbae82b75d5658b08abbc3cb8ddc0b876cc5",
+            "commit_date": 1710393805,
+            "branch": "main",
+            "have_info_from_repo": false
+        }
+    },
+    "name": "gcp_migration"
+}
