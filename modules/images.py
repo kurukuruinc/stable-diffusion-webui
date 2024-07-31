@@ -22,7 +22,7 @@ import hashlib
 from modules import sd_samplers, shared, script_callbacks, errors
 from modules.paths_internal import roboto_ttf_file
 from modules.shared import opts
-from modules.processing import StableDiffusionProcessing
+# from modules.processing import StableDiffusionProcessing
 
 LANCZOS = (Image.Resampling.LANCZOS if hasattr(Image, 'Resampling') else Image.LANCZOS)
 
