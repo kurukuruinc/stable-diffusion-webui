@@ -744,7 +744,8 @@ def save_image(image, path, basename, seed=None, prompt=None, extension='png', i
     info = params.pnginfo.get(pnginfo_section_name, None)
 
     # Remove global and non-variable labels from the image info
-    info = trim_info(info, p.main_prompt)
+    if hasattr(p, 'main_prompt'):
+        info = trim_info(info, p.main_prompt)
     
     def _atomically_save_image(image_to_save, filename_without_extension, extension):
         """
