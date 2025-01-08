@@ -13,3 +13,8 @@ For use with face id (needs VAE):
 wget https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Realistic_Vision_V5.1_fp16-no-ema.safetensors?download=true -O RealisticVision5.safetensors
 ```
 
+launch
+```
+git config --global --add safe.directory '*'
+sudo pm2 start webui.sh
+```
