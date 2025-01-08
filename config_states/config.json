@@ -1,10 +1,10 @@
 {
-    "created_at": 1719964828.405812,
+    "created_at": 1722281625.326995,
     "webui": {
         "remote": "https://github.com/kurukuruinc/stable-diffusion-webui.git",
-        "commit_hash": "a30b19dd5536f463222e484aef2daf466b49ee85",
-        "commit_date": 1718170408,
-        "branch": "master"
+        "commit_hash": "ee819fb3a7811a4b797c24dc0d20d892311b2865",
+        "commit_date": 1721813107,
+        "branch": "updated_dev"
     },
     "extensions": {
         "LDSR": {
@@ -139,6 +139,17 @@
             "branch": "main",
             "have_info_from_repo": false
         },
+        "adetailer": {
+            "name": "adetailer",
+            "path": "/home/stable-diffusion-webui/extensions/adetailer",
+            "enabled": true,
+            "is_builtin": false,
+            "remote": "https://github.com/Bing-su/adetailer.git",
+            "commit_hash": "a7d961131e879ea8a930034a21a2dee21b173e8c",
+            "commit_date": 1718497969,
+            "branch": "main",
+            "have_info_from_repo": false
+        },
         "sd-webui-api-payload-display": {
             "name": "sd-webui-api-payload-display",
             "path": "/home/stable-diffusion-webui/extensions/sd-webui-api-payload-display",
@@ -156,8 +167,19 @@
             "enabled": true,
             "is_builtin": false,
             "remote": "https://github.com/Mikubill/sd-webui-controlnet.git",
-            "commit_hash": "8bbbd0e55ef6e5d71b09c2de2727b36e7bc825b0",
-            "commit_date": 1717952499,
+            "commit_hash": "ee96dc9229e454b8add38c0ca99a92efa97ef238",
+            "commit_date": 1720027910,
+            "branch": "main",
+            "have_info_from_repo": false
+        },
+        "sd-webui-controlnet-evaclip": {
+            "name": "sd-webui-controlnet-evaclip",
+            "path": "/home/stable-diffusion-webui/extensions/sd-webui-controlnet-evaclip",
+            "enabled": true,
+            "is_builtin": false,
+            "remote": "https://github.com/huchenlei/sd-webui-controlnet-evaclip",
+            "commit_hash": "39966e79a5291b9fef8b42de69057dd3b19f4c23",
+            "commit_date": 1715025404,
             "branch": "main",
             "have_info_from_repo": false
         },
@@ -184,5 +206,5 @@
             "have_info_from_repo": false
         }
     },
-    "name": "Backup (pre-update)"
+    "name": "gcp_migration"
 }

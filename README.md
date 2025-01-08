@@ -16,5 +16,6 @@ wget https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Re
 launch
 ```
 git config --global --add safe.directory '*'
+sudo apt install libcudnn8
 sudo pm2 start webui.sh
 ```
